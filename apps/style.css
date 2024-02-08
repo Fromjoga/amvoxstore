@@ -428,6 +428,15 @@ nav h2 {
     font-weight: normal;
   }
 
+  .table2 th h5 {
+    color: #6f8393ff;
+    font-size: 16.5px;
+    margin: 0;
+    filter: brightness(0.63);
+    margin-top: 0.3px;
+    margin-left: 6px;
+  }
+
   .table2 th img {
     width: 19.5px;
     bottom: 0;
@@ -629,6 +638,15 @@ nav h2 {
     font-weight: normal;
   }
 
+  .table2 th h5 {
+    color: #6f8393ff;
+    font-size: 16.5px;
+    margin: 0;
+    filter: brightness(0.63);
+    margin-top: 0.3px;
+    margin-left: 6px;
+  }
+
   .table2 th img {
     width: 18.5px;
     bottom: 0;
@@ -795,6 +813,15 @@ nav h2 {
     margin-bottom: 0;
     font-size: 14px;
     font-weight: normal;
+  }
+
+  .table2 th h5 {
+    color: #6f8393ff;
+    font-size: 13px;
+    margin: 0;
+    filter: brightness(0.63);
+    margin-top: 0.3px;
+    margin-left: 6px;
   }
 
   .table2 th h4 {
