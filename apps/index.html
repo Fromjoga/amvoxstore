@@ -146,7 +146,7 @@
   </tr>
 </table>
 </div>
-    <div class="flex-container2" style="flex-direction: row-reverse;">
+    <div class="flex-container2" style="if(window.innerWidth > 700){flex-direction: row-reverse;}">
           <div class="text-container">
           <h5 style="color:#fff;margin-bottom: 0;">Alguns de</h5>
           <h5 style="color:#eb0000;margin-bottom: 0;margin-top: 5px;">Nossos Benefícios</h5>
@@ -162,6 +162,11 @@
     <h1>Nossas Vantagens</h1>
     <p>Confira algumas das nossas vantagens</p>
   </div>
+    <div style="width: 100px; height: 100px; background-color: red; text-align: center; line-height: 100px;" 
+    onmouseover="if(window.innerWidth < 500) alert('Tela menor que 500px de largura!')">
+    Passe o mouse aqui
+</div>
+
     <div class="divider2"></div>
     <header>
       <h2>© 2024 Amvox Bots. All rights reserved.</h2>
