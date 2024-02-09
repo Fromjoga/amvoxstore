@@ -768,8 +768,8 @@ nav h2 {
   .buy button {
     color: #000;
     margin-top: 30px;
-    width: 80% auto;
-    padding: 10px 10px;
+    width: 80%;
+    padding: 10px calc((20%)/2);
     align-content: center;
     background-color: #fff;
     border-radius: 10px;
