@@ -482,28 +482,6 @@ nav h2 {
     margin-left: 0; 
 }
 
-.flex-container2 #vv img {
-    width: 380px;
-    height: auto;
-    margin-left: 100px; 
-    margin-right: 0; 
-}
-
-  .flex-container2 #vv p {
-    font-size: 22px;
-  }
-  
-  .flex-container2 #vv h5 {
-  font-size: 42px;
-  }
-
-  .flex-container2 #vv img {
-    width: 380px;
-    height: auto;
-    margin-left: 0;
-    margin-right: 100px;
-  }
-
   .flex-container2 p {
     font-size: 22px;
   }
