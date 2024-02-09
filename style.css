@@ -330,7 +330,8 @@ nav h2 {
 @media screen and (min-width: 1024px) {
   .button-nav {
     position: relative;
-    left: 45vw;
+    width: 100%
+    left: calc((20%)/2);
     padding: 15px 25px;
   }
 
