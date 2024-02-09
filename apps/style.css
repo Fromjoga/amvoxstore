@@ -18,6 +18,7 @@ body {
   padding: 0;
   width: 100%;
   color: #fff;
+  overflow: hidden;
   height: 100%;
   user-select: none;
   background: rgb(5,6,10);
@@ -467,20 +468,6 @@ nav h2 {
     align-items: center;
     text-align: left;
   }
-
-.flex-container2 #vv {
-    display: flex;
-    flex-direction: row-reverse; 
-    justify-content: space-between; 
-    align-items: center;
-    text-align: left;
-}
-
-.text-container #vv {
-    flex: 1;
-    margin-right: 40px; 
-    margin-left: 0; 
-}
 
   .flex-container2 p {
     font-size: 22px;
