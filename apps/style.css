@@ -330,7 +330,8 @@ nav h2 {
 @media screen and (min-width: 1024px) {
   .button-nav {
     position: relative;
-    left: 100% auto;
+    width: 100%;
+    left: calc((20%)/2);
     margin-right: 10px;
     padding: 15px 25px;
   }
@@ -541,7 +542,8 @@ nav h2 {
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .button-nav {
     position: relative;
-    left: 36vw;
+    width: 100%;
+    left: calc((20%)/2);
     padding: 15px 30px;
   }
 
@@ -736,6 +738,8 @@ nav h2 {
   
   .button-nav {
     padding: 10px 5px;
+    width: 100%;
+    left: calc((20%)/2);
   }
 
   nav img {
