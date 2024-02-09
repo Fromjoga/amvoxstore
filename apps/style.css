@@ -18,11 +18,10 @@ body {
   padding: 0;
   width: 100%;
   color: #fff;
-  overflow: hidden;
   height: 100%;
   user-select: none;
   background: rgb(5,6,10);
-background: linear-gradient(40deg, rgba(5,6,10,1) 0%, rgba(10,12,20,1) 30%, rgba(5,6,10,1) 50%,rgba(10,12,20,1) 70%, rgba(5,6,10,1) 90%, rgba(10,12,20,1) 100%);
+  background: linear-gradient(40deg, rgba(5,6,10,1) 0%, rgba(10,12,20,1) 30%, rgba(5,6,10,1) 50%,rgba(10,12,20,1) 70%, rgba(5,6,10,1) 90%, rgba(10,12,20,1) 100%);
 }
 
 .abc {
@@ -376,7 +375,7 @@ nav h2 {
   .buy button {
     color: #000;
     margin-top: 30px;
-    padding: 10px 80%;
+    padding: 10px 80% auto;
     align-content: center;
     background-color: #fff;
     border-radius: 10px;
@@ -585,7 +584,7 @@ nav h2 {
   .buy button {
     color: #000;
     margin-top: 30px;
-    padding: 10px 95px;
+    padding: 10px 80% auto;
     align-content: center;
     background-color: #fff;
     border-radius: 10px;
