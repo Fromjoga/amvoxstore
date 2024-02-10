@@ -67,7 +67,7 @@ body {
   transition: color 1.4s ease, border 0.65s ease, transform 0.8s ease, animation 0.4s ease;
 }
 
-.table2 {
+.table3 {
   margin-top: 20px;
   padding: 12px 18px;
   color: #fff;
@@ -76,7 +76,7 @@ body {
   margin-right: 22px;
   margin-left: 22px;
   table-layout: fixed;
-  background-color: #0a0f1a;
+  background-color: #06090f;
   align-items: center;
   min-width: 420px;
   min-height: 120px;
