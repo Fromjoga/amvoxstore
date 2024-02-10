@@ -837,6 +837,12 @@ nav h2 {
     font-weight: normal;
   }
 
+  .sepb {
+    border: 3px solid #ccc;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
   .table2 th img {
     width: 15.5px;
     bottom: 0;
