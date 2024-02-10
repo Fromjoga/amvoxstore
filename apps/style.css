@@ -33,7 +33,7 @@ body {
 .abc2 {
   display: flex;
   flex-wrap: wrap;
-  flex: 2 0 50%;
+  flex: 2 0 33%;
   margin: 10px;
   box-sizing: border-box;
   align-items: center;
@@ -90,8 +90,8 @@ body {
   background-color: #0a0f1a;
   filter: brightness(0.85);
   align-items: center;
-  min-width: 220px;
-  min-height: 140px;
+  min-width: 100%;
+  min-height: 220px;
   padding-bottom: 30px;
   display: inline-block;
   border-radius: 14px;
