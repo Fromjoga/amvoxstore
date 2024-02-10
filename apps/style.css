@@ -75,8 +75,7 @@ body {
 }
 
 .table3 {
-  margin-top: 20px;
-  padding: 12px 18px;
+  margin-top: 12px;
   color: #fff;
   box-sizing: border-box;
   justify-content: center;
@@ -85,12 +84,12 @@ body {
   table-layout: fixed;
   background-color: #0a0f1a;
   filter: brightness(0.85);
+  border-radius: 8px;
   align-items: center;
   min-width: 100%;
   min-height: 220px;
   padding-bottom: 30px;
   display: inline-block;
-  border-radius: 14px;
   border: solid transparent 2px;
   margin-bottom: 0;
   transition: color 1.4s ease, border 0.65s ease, transform 0.8s ease, animation 0.4s ease;
@@ -281,7 +280,7 @@ nav h2 {
   }
   
   .abc2 {
-    flex: 1 0 50%;
+    flex: 1 0 70%;
   }
 
   .table2 {
@@ -295,11 +294,11 @@ nav h2 {
 
   .table3 {
     margin: 0;
-    min-width: 620px;
-    min-height: 200px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    min-width: 570px;
+    min-height: 230px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+    margin-left: 8px;
   }
   
   .flex-container2 {
@@ -532,10 +531,11 @@ nav h2 {
   }
   
   .table3 {
-    min-width: 550px;
-    min-height: 250px;
+    min-width: 520px;
+    min-height: 200px;
     margin-right: 12px;
     margin-left: 12px;
+    margin-bottom: 17px;
   }
 
   .flex-container2 {
