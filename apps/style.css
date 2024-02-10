@@ -838,8 +838,11 @@ nav h2 {
   }
 
   .sepb {
-    border: 3px solid #ccc;
-    width: 80%;
+    writing-mode: vertical-rl;
+    left: 0;
+    border: 1.6px solid #fff;
+    border-radius: 2px;
+    width: 65%;
     margin: 0 auto;
   }
   
