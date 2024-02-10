@@ -36,8 +36,6 @@ body {
   flex: 1 0 33%;
   margin: 10px;
   box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
 }
 
 .abc::-webkit-scrollbar {
