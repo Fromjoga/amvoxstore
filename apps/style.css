@@ -67,6 +67,27 @@ body {
   transition: color 1.4s ease, border 0.65s ease, transform 0.8s ease, animation 0.4s ease;
 }
 
+.table2 {
+  margin-top: 20px;
+  padding: 12px 18px;
+  color: #fff;
+  box-sizing: border-box;
+  justify-content: center;
+  margin-right: 22px;
+  margin-left: 22px;
+  table-layout: fixed;
+  background-color: #0a0f1a;
+  align-items: center;
+  min-width: 420px;
+  min-height: 120px;
+  padding-bottom: 30px;
+  display: inline-block;
+  border-radius: 14px;
+  border: solid transparent 2px;
+  margin-bottom: 18px;
+  transition: color 1.4s ease, border 0.65s ease, transform 0.8s ease, animation 0.4s ease;
+}
+
 .table2:hover {
   border: solid red 2px;
 }
