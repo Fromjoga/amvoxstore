@@ -32,11 +32,10 @@ body {
 
 .abc2 {
   display: flex;
-  flex-wrap: wrap;
+  flex: 1 0 calc(50% - 22px);
+  width: calc(50% - 22px);
   justify-content: center;
-  flex: 1 0 50%;
-  margin: 11px;
-  box-sizing: border-box;
+  align-items: center;
   margin-right: 22px;
   margin-left: 22px;
 }
@@ -88,7 +87,7 @@ body {
   table-layout: fixed;
   background-color: #fff;
   align-items: center;
-  min-width: 220px;
+  min-width: 180px;
   min-height: 120px;
   padding-bottom: 30px;
   display: inline-block;
