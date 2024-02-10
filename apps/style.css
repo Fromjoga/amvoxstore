@@ -38,8 +38,6 @@ body {
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  margin-right: 22px;
-  margin-left: 22px;
 }
 
 .abc::-webkit-scrollbar {
@@ -298,10 +296,10 @@ nav h2 {
   }
 
   .table3 {
-    min-width: 500px;
-    min-height: 230px;
-    margin-right: 18px;
-    margin-left: 18px;
+    min-width: 700px;
+    min-height: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   
   .flex-container2 {
