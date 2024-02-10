@@ -136,6 +136,7 @@ body {
 .button-container {
   position: absolute;
   right: 0;
+  margin-right: 12px;
   display: inline-flex;
   justify-content: flex-end;
   align-items: center;
@@ -143,7 +144,6 @@ body {
 }
 
 .button-nav {
-  margin-left: 70vw auto;
   background-color: #fff;
   padding: 10px 5px;
   border: none;
