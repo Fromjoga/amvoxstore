@@ -4,8 +4,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(5,6,10);
-background: linear-gradient(40deg, rgba(5,6,10,1) 0%, rgba(10,12,20,1) 30%, rgba(5,6,10,1) 50%, rgba(10,12,20,1) 70%, rgba(5,6,10,1) 90%, rgba(10,12,20,1) 100%);
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -20,8 +19,7 @@ body {
   color: #fff;
   height: 100%;
   user-select: none;
-  background: rgb(5,6,10);
-  background: linear-gradient(40deg, rgba(5,6,10,1) 0%, rgba(10,12,20,1) 30%, rgba(5,6,10,1) 50%,rgba(10,12,20,1) 70%, rgba(5,6,10,1) 90%, rgba(10,12,20,1) 100%);
+  background-color: #202026;
 }
 
 .abc {
