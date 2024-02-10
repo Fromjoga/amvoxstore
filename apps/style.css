@@ -114,7 +114,7 @@ body {
 }
 
 .button-nav {
-  margin-left: 80%;
+  right: 0;
   background-color: #fff;
   padding: 10px 5px;
   border: none;
