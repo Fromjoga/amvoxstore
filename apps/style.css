@@ -838,10 +838,11 @@ nav h2 {
   }
 
   .sepb {
-    border: 0.1px solid #fff;
+    margin-top: 6px;
+    border: 0.14px solid #0a0f1a;
     border-radius: 5px;
-    width: 100%;
-    filter: brightness(100);
+    width: 70%;
+    filter: brightness(0.6);
     margin: 0 auto;
     margin-left: 0;
   }
