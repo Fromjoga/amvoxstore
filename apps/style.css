@@ -134,6 +134,7 @@ body {
 }
 
 .button-container {
+  position: absolute;
   right: 0;
   display: inline-flex;
   justify-content: flex-end;
