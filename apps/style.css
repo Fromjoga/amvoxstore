@@ -1,6 +1,7 @@
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 4.5px;
   height: 3px;
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-track {
@@ -19,7 +20,7 @@ body {
   height: 100%;
   color: #fff;
   user-select: none;
-  background-color: #02001f;
+  background-color: #00051a;
 }
 
 .abc {
