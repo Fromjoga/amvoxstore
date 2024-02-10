@@ -35,6 +35,8 @@ body {
   flex-wrap: wrap;
   flex: 1 0 33%;
   margin: 10px;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
 }
 
