@@ -247,8 +247,9 @@ nav h2 {
 
 .buy {
   display: flex;
-  justify-content: center;
-  padding: 0;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
 }
 
 .buy button {
@@ -422,7 +423,7 @@ nav h2 {
     color: #000;
     margin-top: 30px;
     width: 100%;
-    padding: 12px calc((20%)/2);
+    padding: 12px calc((10%)/2);
     align-content: center;
     background-color: #fff;
     border-radius: 10px;
@@ -612,7 +613,7 @@ nav h2 {
   .button-nav {
     position: relative;
     width: 100%;
-    left: calc((20%)/2);
+    left: calc((10%)/2);
     padding: 15px 30px;
   }
 
