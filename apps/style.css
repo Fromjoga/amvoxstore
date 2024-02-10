@@ -529,15 +529,15 @@ nav h2 {
   }
   
   .abc2 {
-    flex: 1 0 70%;
+    flex: 1 0 6%;
   }
   
   .table3 {
-    min-width: 560px;
-    min-height: 240px;
+    min-width: 520px;
+    min-height: 220px;
     margin-right: 8px;
     margin-left: 8px;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
   }
 
   .flex-container2 {
