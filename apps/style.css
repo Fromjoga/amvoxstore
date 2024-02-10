@@ -106,11 +106,10 @@ body {
 }
 
 .button-container {
-  display: flex;
+  display: inline;
   justify-content: flex-end;
   align-items: center;
   vertical-align: middle;
-  right: 100%;
 }
 
 .button-nav {
