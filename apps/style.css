@@ -68,7 +68,7 @@ body {
   table-layout: fixed;
   background-color: #0a0f1a;
   align-items: center;
-  min-width: 420px;
+  min-width: 320px;
   min-height: 230px;
   padding-bottom: 30px;
   display: inline-block;
@@ -250,6 +250,7 @@ nav h2 {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  margin: 0 auto;
 }
 
 .buy button {
