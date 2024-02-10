@@ -490,10 +490,10 @@ nav h2 {
   }
 
   .sepb {
-    margin-top: 22px;
-    border: 6.8px solid #fff;
-    border-radius: 3px;
-    width: 50px;
+    margin-top: 45px;
+    border: 14px solid #fff;
+    border-radius: 9px;
+    width: 75px;
     filter: brightness(3.4);
     margin: 0 auto;
     margin-bottom: 38px;
@@ -729,10 +729,10 @@ nav h2 {
   }
 
   .sepb {
-    margin-top: 20px;
-    border: 6.5px solid #fff;
-    border-radius: 4px;
-    width: 50px;
+    margin-top: 30px;
+    border: 13px solid #fff;
+    border-radius: 7px;
+    width: 60px;
     filter: brightness(3.4);
     margin: 0 auto;
     margin-bottom: 36px;
@@ -787,7 +787,7 @@ nav h2 {
   }
 
   .flex-container2 p {
-    font-size: 18.6px;
+    font-size: 16.6px;
   }
 
   .button2 {
@@ -928,10 +928,10 @@ nav h2 {
   }
 
   .sepb {
-    margin-top: 15px;
-    border: 6px solid #fff;
-    border-radius: 3px;
-    width: 25px;
+    margin-top: 30px;
+    border: 10px solid #fff;
+    border-radius: 7px;
+    width: 50px;
     filter: brightness(3.4);
     margin: 0 auto;
     margin-bottom: 30px;
