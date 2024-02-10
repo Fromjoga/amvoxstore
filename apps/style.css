@@ -33,7 +33,7 @@ body {
 .abc2 {
   display: flex;
   flex-wrap: wrap;
-  flex: 2 0 33%;
+  flex: 1 0 33%;
   margin: 10px;
   box-sizing: border-box;
   align-items: center;
@@ -283,6 +283,10 @@ nav h2 {
     justify-content: center;
     margin-bottom: 100px;
   }
+  
+  .abc2 {
+    flex: 1 0 50%;
+  }
 
   .table2 {
     width: 460px;
@@ -294,8 +298,8 @@ nav h2 {
   }
 
   .table3 {
-    width: 500px;
-    height: 230px;
+    min-width: 500px;
+    min-height: 230px;
     margin-right: 18px;
     margin-left: 18px;
   }
@@ -525,9 +529,13 @@ nav h2 {
     margin-left: 8px;
   }
   
+  .abc2 {
+    flex: 1 0 50%;
+  }
+  
   .table3 {
-    width: 440px;
-    height: 220px;
+    min-width: 340px;
+    min-height: 230px;
     margin-right: 18px;
     margin-left: 18px;
   }
