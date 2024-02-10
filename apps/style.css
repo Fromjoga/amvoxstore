@@ -30,6 +30,10 @@ body {
   margin-left: 22px;
 }
 
+.abc2 {
+  display: flex;
+}
+
 .abc::-webkit-scrollbar {
   width: 3.7px;
   height: 5px;
