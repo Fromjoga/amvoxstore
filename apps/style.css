@@ -838,13 +838,14 @@ nav h2 {
   }
 
   .sepb {
-    margin-top: 6px;
-    border: 0.14px solid #0a0f1a;
-    border-radius: 2px;
+    margin-top: 15px;
+    border: 0.17px solid #0a0f1a;
+    border-radius: 1px;
     width: 70%;
     filter: brightness(2.4);
     margin: 0 auto;
     margin-left: 0;
+    margin-bottom: 10px;
   }
   
   .table2 th img {
