@@ -441,6 +441,17 @@ nav h2 {
     margin-left: 6px;
   }
 
+  .sepb {
+    margin-top: 15px;
+    border: 0.25px solid #0a0f1a;
+    border-radius: 1px;
+    width: 85%;
+    filter: brightness(2.8);
+    margin: 0 auto;
+    margin-left: 0;
+    margin-bottom: 13.5px;
+  }
+
   .table2 th img {
     width: 19.5px;
     bottom: 0;
@@ -652,6 +663,17 @@ nav h2 {
     margin-left: 6px;
   }
 
+  .sepb {
+    margin-top: 15px;
+    border: 0.23px solid #0a0f1a;
+    border-radius: 1px;
+    width: 85%;
+    filter: brightness(2.8);
+    margin: 0 auto;
+    margin-left: 0;
+    margin-bottom: 14px;
+  }
+
   .table2 th img {
     width: 18.5px;
     bottom: 0;
@@ -841,8 +863,8 @@ nav h2 {
     margin-top: 15px;
     border: 0.17px solid #0a0f1a;
     border-radius: 1px;
-    width: 70%;
-    filter: brightness(2.4);
+    width: 85%;
+    filter: brightness(2.8);
     margin: 0 auto;
     margin-left: 0;
     margin-bottom: 10px;
