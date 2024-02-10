@@ -838,12 +838,11 @@ nav h2 {
   }
 
   .sepb {
-    writing-mode: vertical-rl;
-    left: 0;
-    border: 1.6px solid #fff;
+    border: 0.4px solid #fff;
     border-radius: 2px;
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
+    margin-left: 0;
   }
   
   .table2 th img {
