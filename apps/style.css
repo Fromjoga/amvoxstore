@@ -125,10 +125,13 @@ body {
 }
 
 .bots2 h1 {
-  margin-top: 110px;
   font-size: 36px;
   text-align: center;
-  margin-bottom: 110px;
+}
+
+.bots2 p {
+  font-size: 20px;
+  text-align: center;
 }
 
 .benef {
@@ -286,6 +289,23 @@ nav h2 {
 */
 
 @media screen and (min-width: 1024px) {
+  .bots2 {
+    color: #fff;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: 330px;
+  }
+
+  .bots2 h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .bots2 p {
+    font-size: 24px;
+    text-align: center;
+  }
+
   .abc {
     display: flex;
     flex-wrap: wrap;
@@ -530,6 +550,22 @@ nav h2 {
 */
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+  .bots2 {
+    color: #fff;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 430px;
+  }
+
+  .bots2 h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .bots2 p {
+    font-size: 24px;
+    text-align: center;
+  }
   .abc {
     margin-bottom: 90px;
   }
@@ -769,6 +805,23 @@ nav h2 {
 */
 
 @media screen and (max-width: 600px) {
+  .bots2 {
+    color: #fff;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: 210px;
+  }
+
+  .bots2 h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .bots2 p {
+    font-size: 20px;
+    text-align: center;
+  }
+  
   .abc {
     margin-bottom: 50px;
   }
