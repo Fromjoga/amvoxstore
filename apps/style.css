@@ -31,7 +31,9 @@ body {
 }
 
 .abc2 {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Define a largura mínima e a fração da largura disponível para cada célula */
+  grid-gap: 22px;
   justify-content: center;
   align-items: center;
   margin-right: 22px;
@@ -83,7 +85,7 @@ body {
   margin-right: 22px;
   margin-left: 22px;
   table-layout: fixed;
-  background-color: #06090f;
+  background-color: #fff;
   align-items: center;
   min-width: 420px;
   min-height: 120px;
