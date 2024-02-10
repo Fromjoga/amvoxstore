@@ -16,10 +16,10 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  color: #fff;
   height: 100%;
+  color: #fff;
   user-select: none;
-  background-color: #010014;
+  background-color: #02001f;
 }
 
 .abc {
