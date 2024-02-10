@@ -1,5 +1,5 @@
 ::-webkit-scrollbar {
-  width: 2px;
+  width: 4px;
   height: 3px;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 
 .button-nav {
-  margin-left: 5px;
+  margin-left: 80%;
   background-color: #fff;
   padding: 10px 5px;
   border: none;
@@ -217,6 +217,10 @@ nav h2 {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+}
+
+.buy button {
+  border: none;
 }
 
 .buy button:hover {
