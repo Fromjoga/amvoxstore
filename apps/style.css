@@ -32,7 +32,7 @@ body {
 
 .abc2 {
   display: flex;
-  flex-wrap: wrap;
+  flex: 1 0 calc(50% - 22px);
   width: calc(50% - 22px);
   justify-content: center;
   align-items: center;
