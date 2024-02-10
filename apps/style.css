@@ -820,7 +820,9 @@ nav h2 {
   .bots2 p {
     font-size: 16px;
     text-align: center;
-    white-space: pre-line;
+    white-space: nowrap;
+    margin-right: 8px;
+    margin-left: 8px;
   }
   
   .abc {
