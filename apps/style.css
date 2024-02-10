@@ -107,6 +107,7 @@ body {
 
 .button-container {
   right: 0;
+  margin-left: 100vw;
   display: inline-flex;
   justify-content: flex-end;
   align-items: center;
@@ -114,7 +115,6 @@ body {
 }
 
 .button-nav {
-  right: 0;
   background-color: #fff;
   padding: 10px 5px;
   border: none;
