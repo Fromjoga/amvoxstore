@@ -840,9 +840,9 @@ nav h2 {
   .sepb {
     margin-top: 6px;
     border: 0.14px solid #0a0f1a;
-    border-radius: 5px;
+    border-radius: 2px;
     width: 70%;
-    filter: brightness(0.6);
+    filter: brightness(2.4);
     margin: 0 auto;
     margin-left: 0;
   }
