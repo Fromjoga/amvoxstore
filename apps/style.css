@@ -279,14 +279,20 @@ nav h2 {
   vertical-align: middle;
 }
 
-.tit {display:inline-block;vertical-align: middle;}
+.tit {display: flex;justify-content: space-between;vertical-align: middle;}
 
 .tit a {
   margin-left: 4px;
   margin-right: 4px;
   width: 0 auto;
-  background-color: gray;
-  padding: 4px;
+  background-color: #000;
+  border: solid #000 1.3px;
+  padding: 8px 4px;
+  transition: border 0.4s ease;
+}
+
+.tit a:hover {
+  border: solid #eb0000 1.3px;
 }
 
 .buy {
