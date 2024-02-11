@@ -279,7 +279,15 @@ nav h2 {
   vertical-align: middle;
 }
 
-.tit {display:inline;vertical-align: middle;}
+.tit {display:inline-block;vertical-align: middle;}
+
+.tit a {
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 0 auto;
+  background-color: gray;
+  padding: 4px;
+}
 
 .buy {
   display: flex;
