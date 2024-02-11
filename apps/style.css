@@ -279,7 +279,7 @@ nav h2 {
   vertical-align: middle;
 }
 
-.tit {display:flex;vertical-align: middle;}
+.tit {display:inline;vertical-align: middle;}
 
 .buy {
   display: flex;
