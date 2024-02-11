@@ -282,17 +282,21 @@ nav h2 {
 .tit {display: flex;justify-content: space-between;vertical-align: middle;}
 
 .tit a {
+  text-align: center;
   margin-left: 4px;
   margin-right: 4px;
   width: 0 auto;
   background-color: #000;
   border: solid #000 1.3px;
-  padding: 8px 4px;
+  padding: 6px 4px;
+  font-size: 14px;
+  filter: brightness(0.8);
+  border-radius: 3px;
   transition: border 0.4s ease;
 }
 
 .tit a:hover {
-  border: solid #eb0000 1.3px;
+  transform: scale(1.05);
 }
 
 .buy {
