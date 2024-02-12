@@ -45,10 +45,10 @@ body {
   margin-top: 15px;
   color: #fff;
   margin-bottom: 25px;
-  height: 62px;
-  width: 220px;
-  max-height: 62px;
-  max-width: 220px;
+  height: 70px;
+  width: 230px;
+  max-height: 70px;
+  max-width: 230px;
   margin-right: 10px;
   box-sizing: border-box;
   justify-content: center;
@@ -413,10 +413,18 @@ nav h2 {
 
 @media screen and (min-width: 1024px) {
   .table {
-  min-height: 82px;
+  min-height: 80px;
   min-width: 250px;
   margin-right: 12px;
   margin-left: 14px;
+ }
+  
+.pp {
+  font-size: 24.1px;
+}
+  
+.table tr th {
+  font-size: 16.5px;
 }
 
   .bots2 {
@@ -681,11 +689,20 @@ nav h2 {
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .table {
-  min-height: 90px;
-  min-width: 260px;
+  min-height: 82px;
+  min-width: 240px;
   margin-right: 14px;
   margin-left: 14px;
 }
+  
+.pp {
+  font-size: 24.1px;
+}
+  
+.table tr th {
+  font-size: 16.5px;
+}
+  
   .bots2 {
     color: #fff;
     align-items: center;
