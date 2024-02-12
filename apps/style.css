@@ -45,8 +45,10 @@ body {
   margin-top: 15px;
   color: #fff;
   margin-bottom: 25px;
-  min-height: 62px;
-  min-width: 220px;
+  height: 62px;
+  width: 220px;
+  max-height: 62px;
+  max-width: 220px;
   margin-right: 10px;
   box-sizing: border-box;
   justify-content: center;
