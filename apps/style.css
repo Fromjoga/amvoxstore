@@ -30,6 +30,81 @@ body {
   margin-left: 22px;
 }
 
+.table {
+  margin-bottom: 30px;
+  margin-top: 5px;
+  border-radius: 8px;
+  padding: 12px 18px;
+  margin-top: 15px;
+  color: #fff;
+  margin-bottom: 40px;
+  height: 62px;
+  width: 220px;
+  max-height: 62px;
+  max-width: 220px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+  table-layout: fixed;
+  margin-left: 10px;
+  background-color: #141721;
+  align-items: center;
+  transition: background,color 1.4s ease;
+}
+
+.table:hover {
+  transform: scale(1.015);
+  background-color: #1770ff;
+}
+
+.table:hover th {
+  color: #141721;
+}
+
+.table tr th {
+  margin-top: 0;
+  margin-left: 0;
+  text-align: center;
+  font-size: 14px;
+  color: #1770ff;
+  margin-bottom: 8px;
+  transition: all 1.4s ease;
+}
+
+.table tr th td {
+  margin-top: 0;
+  margin-left: 0;
+  text-align: left;
+}
+
+.ap {
+  margin-top: 0;
+  margin-left: 0;font-size:14px;
+  white-space: pre-line;
+}
+
+.imga {
+  display: block;
+  margin-top: 8px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  background-color: #141721;
+  border: 2px solid #1770ff;
+  width: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 1.4s ease;
+}
+
+.pp {
+text-align: center;
+margin: auto;
+margin-top: 110px;
+color: #c72c2c;
+font-size: 20.1px;
+font-weight: bold;
+  }
+
 .abc2 {
   display: flex;
   flex-wrap: wrap;
