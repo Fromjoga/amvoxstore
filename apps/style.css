@@ -38,7 +38,6 @@ body {
   align-items: center;
   flex-wrap: wrap;
   overflow: hidden;
-  box-sizing: border-box;
 }
 
 .table {
@@ -56,6 +55,7 @@ body {
   box-sizing: border-box;
   justify-content: center;
   table-layout: fixed;
+  display: inline-block;
   margin-left: 10px;
   background-color: #141721;
   align-items: center;
