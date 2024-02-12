@@ -1,3 +1,7 @@
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
 ::-webkit-scrollbar {
   width: 4.5px;
   height: 3px;
@@ -36,13 +40,13 @@ body {
   align-items: center;
   flex-wrap: wrap;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .table {
   margin-top: 5px;
   border-radius: 8px;
-  padding: 12px 25px;
-  text-align: center;
+  padding: 25px 25px;
   margin-top: 15px;
   color: #fff;
   margin-bottom: 25px;
@@ -52,6 +56,7 @@ body {
   max-width: 230px;
   margin-right: 10px;
   box-sizing: border-box;
+  display: inline-block;
   justify-content: center;
   table-layout: fixed;
   margin-left: 10px;
