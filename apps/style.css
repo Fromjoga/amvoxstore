@@ -30,6 +30,14 @@ body {
   margin-left: 22px;
 }
 
+.abc3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
 .table {
   margin-bottom: 30px;
   margin-top: 5px;
