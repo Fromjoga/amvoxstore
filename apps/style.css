@@ -89,7 +89,6 @@ body {
   margin-top: 0;
   margin-left: 0;
   font-size:14px;
-  white-space: pre-line;
 }
 
 .imga {
@@ -428,6 +427,7 @@ nav h2 {
 .pp {
   font-size: 29.1px;
   margin: 0;
+  padding: 0;
 }
   
 .ap {
