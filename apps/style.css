@@ -111,7 +111,8 @@ body {
 }
 
 .pp {
-text-align: center;
+text-align: left;
+width: 0 auto;
 margin-top: 60px;
 color: #c72c2c;
 font-size: 20.1px;
