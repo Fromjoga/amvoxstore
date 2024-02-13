@@ -66,6 +66,10 @@ body {
   background-color: #1770ff;
 }
 
+.table:hover .imga {
+  transform: scale(1.015);
+}
+
 .table:hover th {
   color: #141721;
 }
@@ -417,14 +421,16 @@ nav h2 {
 
 @media screen and (min-width: 1024px) {
   .table {
-  min-height: 190px;
-  min-width: 280px;
+  height: 190px;
+  width: 270px;
+  max-height: 190px;
+  max-width: 270px;
   margin-right: 12px;
   margin-left: 14px;
  }
   
 .pp {
-  font-size: 24.1px;
+  font-size: 21.1px;
 }
   
 .table tr th {
@@ -693,14 +699,16 @@ nav h2 {
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .table {
-  min-height: 180px;
-  min-width: 260px;
+  height: 180px;
+  width: 260px;
+  max-height: 180px;
+  max-width: 260px;
   margin-right: 14px;
   margin-left: 14px;
 }
   
 .pp {
-  font-size: 24.1px;
+  font-size: 21.1px;
 }
   
 .table tr th {
