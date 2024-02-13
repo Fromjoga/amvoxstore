@@ -100,6 +100,7 @@ body {
   background-color: #141721;
   border: 2px solid #1770ff;
   width: 50px;
+  padding: 12px;
   margin-bottom: 15px;
   border-radius: 50%;
   transition: border 1.4s ease, width 0.3s ease;
@@ -425,12 +426,13 @@ nav h2 {
  }
   
 .pp {
-  font-size: 26.1px;
+  font-size: 29.1px;
+  margin: 0;
 }
   
 .ap {
   margin: 0;
-  font-size: 18.5px;
+  font-size: 14.5px;
 }
 
   .bots2 {
@@ -705,11 +707,12 @@ nav h2 {
 }
   
 .pp {
-  font-size: 25.1px;
+  font-size: 28.1px;
+  margin: 0;
 }
   
 .ap {
-  font-size: 21.5px;
+  font-size: 15.5px;
   margin: 0;
 }
   
