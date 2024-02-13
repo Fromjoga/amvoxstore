@@ -66,7 +66,7 @@ body {
   background-color: #1770ff;
 }
 
-.table:hover th {
+.table:hover .pp {
   color: #141721;
 }
 
@@ -107,14 +107,16 @@ body {
 }
 
 .pp {
+  display: block;
 text-align: center;
 width: 0;
-margin: 0;
-margin-top: 40px;
-margin-bottom: 20px;
+  margin: 0 auto;
+margin-top: 25px;
+margin-bottom: 12px;
 color: #1770ff;
 font-size: 23px;
 font-weight: bold;
+  transition: color 1.4s ease;
 }
 
 .abc2 {
