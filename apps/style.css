@@ -76,7 +76,6 @@ body {
   text-align: center;
   font-size: 14px;
   color: #1770ff;
-  margin-bottom: 8px;
   transition: color 1.4s ease;
 }
 
@@ -418,7 +417,7 @@ nav h2 {
 
 @media screen and (min-width: 1024px) {
   .table {
-  padding: 20px;
+  padding: 10px;
   height: 350px;
   width: 260px;
   max-height: 350px;
@@ -429,6 +428,7 @@ nav h2 {
   
 .pp {
   font-size: 26.1px;
+  margin-bottom: 0;
 }
   
 .table tr th {
@@ -697,17 +697,18 @@ nav h2 {
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .table {
-  padding: 20px;
-  height: 280px;
-  width: 260px;
-  max-height: 280px;
-  max-width: 260px;
+  padding: 10px;
+  height: 330px;
+  width: 230px;
+  max-height: 330px;
+  max-width: 230px;
   margin-right: 14px;
   margin-left: 14px;
 }
   
 .pp {
   font-size: 25.1px;
+  margin-bottom: 0;
 }
   
 .table tr th {
