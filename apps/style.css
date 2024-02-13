@@ -47,15 +47,14 @@ body {
   margin-top: 15px;
   color: #fff;
   margin-bottom: 25px;
-  height: 70px;
+  height: 140px;
   width: 230px;
-  max-height: 70px;
+  max-height: 140px;
   max-width: 230px;
   margin-right: 10px;
   box-sizing: border-box;
   justify-content: center;
   table-layout: fixed;
-  display: inline-block;
   margin-left: 10px;
   background-color: #141721;
   align-items: center;
@@ -99,6 +98,8 @@ body {
   margin-top: 8px;
   margin: 0 auto;
   margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
   background-color: #141721;
   border: 2px solid #1770ff;
   width: 50px;
@@ -109,7 +110,7 @@ body {
 
 .pp {
 text-align: center;
-margin: auto;
+margin: 0 auto;
 margin-top: 110px;
 color: #c72c2c;
 font-size: 20.1px;
