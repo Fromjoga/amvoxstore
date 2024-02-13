@@ -43,7 +43,7 @@ body {
 .table {
   margin-top: 10px;
   border-radius: 8px;
-  padding: 25px 25px;
+  padding: 15px;
   margin-top: 15px;
   color: #fff;
   margin-bottom: 25px;
@@ -96,7 +96,7 @@ body {
 .imga {
   display: block;
   margin-top: 8px;
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: 15px;
   justify-content: center;
   align-items: center;
@@ -105,7 +105,7 @@ body {
   width: 50px;
   padding: 10px;
   border-radius: 50%;
-  transition: all 1.4s ease;
+  transition: border 1.4s ease;
 }
 
 .pp {
