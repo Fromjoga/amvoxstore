@@ -49,8 +49,8 @@ body {
   margin-bottom: 25px;
   height: 140px;
   width: 230px;
-  max-height: 140px;
-  max-width: 230px;
+  max-height: 180px;
+  max-width: 250px;
   margin-right: 10px;
   box-sizing: border-box;
   justify-content: center;
@@ -96,7 +96,7 @@ body {
 .imga {
   display: block;
   margin-top: 8px;
-  margin: 0 auto;
+  margin: 0;
   margin-bottom: 15px;
   justify-content: center;
   align-items: center;
@@ -110,8 +110,7 @@ body {
 
 .pp {
 text-align: center;
-margin: 0 auto;
-margin-top: 110px;
+margin-top: 60px;
 color: #c72c2c;
 font-size: 20.1px;
 font-weight: bold;
@@ -418,8 +417,8 @@ nav h2 {
 
 @media screen and (min-width: 1024px) {
   .table {
-  min-height: 80px;
-  min-width: 250px;
+  min-height: 190px;
+  min-width: 280px;
   margin-right: 12px;
   margin-left: 14px;
  }
@@ -429,7 +428,7 @@ nav h2 {
 }
   
 .table tr th {
-  font-size: 16.5px;
+  font-size: 18.5px;
 }
 
   .bots2 {
@@ -694,8 +693,8 @@ nav h2 {
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .table {
-  min-height: 82px;
-  min-width: 240px;
+  min-height: 180px;
+  min-width: 260px;
   margin-right: 14px;
   margin-left: 14px;
 }
@@ -705,7 +704,7 @@ nav h2 {
 }
   
 .table tr th {
-  font-size: 16.5px;
+  font-size: 18.5px;
 }
   
   .bots2 {
