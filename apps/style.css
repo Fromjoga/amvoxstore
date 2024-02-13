@@ -322,17 +322,17 @@ font-size: 16.8px;
 }
 
 .button2 {
-  transition: all 0.6s ease;
+  transition: all 0.6s ease-in;
 }
 
 .button2:hover {
-  filter: brightness(0.86);
+  filter: brightness(0.92);
   cursor: pointer;
 }
 
 .button2:hover img {
   margin-left: 14px;
-  filter: invert(85%);
+  filter: invert(8%);
 }
 
 nav {
@@ -516,7 +516,7 @@ nav h2 {
     font-size: 22px;
     width: 0 auto;
     margin-top: 13px;
-    transition: background 0.6s ease;
+    transition: all 0.6s ease;
   }
   
   .button2 img {
@@ -789,7 +789,7 @@ nav h2 {
     font-size: 22px;
     width: 0 auto;
     margin-top: 10px;
-    transition: background 0.6s ease;
+    transition: all 0.6s ease;
   }
 
   header h2 {
@@ -1029,7 +1029,7 @@ nav h2 {
     border-radius: 8px;
     font-size: 20px;
     margin-top: 18px;
-    transition: background 0.6s ease;
+    transition: all 0.6s ease;
   }
   
   .button2 img {
