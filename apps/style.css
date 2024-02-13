@@ -419,15 +419,15 @@ nav h2 {
   .table {
   padding: 20px;
   height: 300px;
-  width: 300px;
+  width: 260px;
   max-height: 300px;
-  max-width: 300px;
+  max-width: 260px;
   margin-right: 12px;
   margin-left: 14px;
  }
   
 .pp {
-  font-size: 21.1px;
+  font-size: 19.1px;
 }
   
 .table tr th {
