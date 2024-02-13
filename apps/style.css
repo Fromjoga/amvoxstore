@@ -432,6 +432,7 @@ nav h2 {
   
 .ap {
   margin: 0;
+  padding: 0;
   font-size: 14.5px;
 }
 
@@ -450,13 +451,6 @@ nav h2 {
   .bots2 p {
     font-size: 24px;
     text-align: center;
-  }
-
-  .abc {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 100px;
   }
   
   .abc2 {
