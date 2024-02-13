@@ -47,8 +47,8 @@ body {
   margin-top: 15px;
   color: #fff;
   margin-bottom: 25px;
-  height: 140px;
-  width: 230px;
+  height: 180px;
+  width: 250px;
   max-height: 180px;
   max-width: 250px;
   margin-right: 10px;
@@ -62,12 +62,12 @@ body {
 }
 
 .table:hover {
-  transform: scale(1.015);
+  transform: scale(1.025);
   background-color: #1770ff;
 }
 
 .table:hover .imga {
-  transform: scale(1.015);
+  transform: scale(1.025);
 }
 
 .table:hover th {
@@ -102,14 +102,12 @@ body {
   margin-top: 8px;
   margin: 0 auto;
   margin-bottom: 15px;
-  justify-content: center;
-  align-items: center;
   background-color: #141721;
   border: 2px solid #1770ff;
   width: 50px;
   padding: 10px;
   border-radius: 50%;
-  transition: border 1.4s ease;
+  transition: border 1.4s ease, transform 0.9s ease;
 }
 
 .pp {
