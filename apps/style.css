@@ -37,7 +37,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  overflow: hidden;
 }
 
 .table {
@@ -107,7 +106,7 @@ body {
 
 .pp {
 text-align: center;
-margin-bottom: 12px;
+margin-bottom: 2px;
 color: #1770ff;
 font-size: 23px;
 font-weight: bold;
@@ -323,13 +322,13 @@ font-size: 16.8px;
 }
 
 .button2:hover {
-  background-color: #bf0000;
+  filter: brightness(0.86);
   cursor: pointer;
 }
 
 .button2:hover img {
   margin-left: 14px;
-  filter: invert(85%);
+  filter: brightness(0.86);
 }
 
 nav {
