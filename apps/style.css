@@ -58,12 +58,13 @@ body {
   margin-left: 10px;
   background-color: #141721;
   align-items: center;
-  transition: background 1.4s ease, color 1.4s ease, transform 0.7s ease;
+  transition: background 1.4s ease, color 1.4s ease, transform 0.7s ease, box-shadow 0.4s ease-in;
 }
 
 .table:hover {
   transform: scale(1.025);
   background-color: #1770ff;
+  box-shadow: -3px 3px 15px 0px rgba(0, 0, 0, 0.3);
 }
 
 .table:hover .imga {
@@ -115,7 +116,7 @@ text-align: left;
 width: 0 auto;
 margin-top: 60px;
 color: #c72c2c;
-font-size: 20.1px;
+font-size: 18px;
 font-weight: bold;
 }
 
@@ -420,10 +421,11 @@ nav h2 {
 
 @media screen and (min-width: 1024px) {
   .table {
-  height: 190px;
-  width: 270px;
-  max-height: 190px;
-  max-width: 270px;
+  padding: 20px;
+  height: 270px;
+  width: 300px;
+  max-height: 270px;
+  max-width: 300px;
   margin-right: 12px;
   margin-left: 14px;
  }
@@ -698,10 +700,11 @@ nav h2 {
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .table {
-  height: 180px;
-  width: 260px;
-  max-height: 180px;
-  max-width: 260px;
+  padding: 20px;
+  height: 220px;
+  width: 300px;
+  max-height: 220px;
+  max-width: 300px;
   margin-right: 14px;
   margin-left: 14px;
 }
