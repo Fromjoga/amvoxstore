@@ -100,16 +100,14 @@ body {
   background-color: #141721;
   border: 2px solid #1770ff;
   width: 50px;
-  padding: 10px;
-margin-bottom: 8px;
+  margin-bottom: 15px;
   border-radius: 50%;
   transition: border 1.4s ease, width 0.3s ease;
 }
 
 .pp {
 text-align: center;
-margin: 0;
-margin-bottom: 8px;
+margin-bottom: 12px;
 color: #1770ff;
 font-size: 23px;
 font-weight: bold;
@@ -417,7 +415,7 @@ nav h2 {
 
 @media screen and (min-width: 1024px) {
   .table {
-  padding: 10px;
+  padding: 20px;
   height: 350px;
   width: 260px;
   max-height: 350px;
@@ -428,10 +426,10 @@ nav h2 {
   
 .pp {
   font-size: 26.1px;
-  margin-bottom: 0;
 }
   
-.table tr th {
+.ap {
+  margin: 0;
   font-size: 18.5px;
 }
 
@@ -697,22 +695,22 @@ nav h2 {
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .table {
-  padding: 10px;
-  height: 330px;
-  width: 230px;
-  max-height: 330px;
-  max-width: 230px;
+  padding: 20px;
+  height: 300px;
+  width: 280px;
+  max-height: 300px;
+  max-width: 280px;
   margin-right: 14px;
   margin-left: 14px;
 }
   
 .pp {
   font-size: 25.1px;
-  margin-bottom: 0;
 }
   
-.table tr th {
+.ap {
   font-size: 21.5px;
+  margin: 0;
 }
   
   .bots2 {
