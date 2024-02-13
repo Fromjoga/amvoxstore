@@ -321,6 +321,10 @@ color: #393f4d;
 font-size: 16.8px;
 }
 
+.button2 {
+  transition: all 0.6s ease;
+}
+
 .button2:hover {
   filter: brightness(0.86);
   cursor: pointer;
@@ -328,7 +332,7 @@ font-size: 16.8px;
 
 .button2:hover img {
   margin-left: 14px;
-  filter: brightness(0.86);
+  filter: invert(85%);
 }
 
 nav {
