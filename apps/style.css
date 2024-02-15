@@ -314,14 +314,14 @@ padding-inline-end: 20px;
 text-align: center;
 position: relative;
 bottom: 0;
-background-color: #0a0a0a;
+background-color: #000005;
 margin-top: 50px;  
 }
 
 header h2 {
 color: #393f4d;
 font-size: 16.8px;
-font-weight: 400px;
+font-weight: 400;
 }
 
 .button2 {
