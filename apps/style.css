@@ -23,8 +23,8 @@ body {
   color: #fff;
   user-select: none;
   background-color: #000014;
-background-image:  linear-gradient(#00001f 2px, transparent 2px), linear-gradient(to right, #00001f 2px, #000014 5px);
-background-size: 32px 32px;
+background-image:  linear-gradient(#000005 2px, transparent 2px), linear-gradient(to right, #000005 2px, #000014 5px);
+background-size: 50px 50px;
 }
 
 .abc {
