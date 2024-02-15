@@ -23,7 +23,7 @@ body {
   color: #fff;
   user-select: none;
   background-color: #000014;
-background-image:  linear-gradient(#000005 2px, transparent 2px), linear-gradient(to right, #000005 2px, #000014 5px);
+background-image:  linear-gradient(#000014 2px, transparent 2px), linear-gradient(to right, #000014 2px, #000005 5px);
 background-size: 50px 50px;
 }
 
