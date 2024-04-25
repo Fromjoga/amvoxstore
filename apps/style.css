@@ -337,7 +337,7 @@ font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
-  white-space: nowrap;
+  white-space: normal;
   padding: 0 10px;
 }
 
