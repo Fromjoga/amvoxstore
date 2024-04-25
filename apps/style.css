@@ -319,12 +319,13 @@ font-weight: bold;
 }
 
 header {
+border-top: 3px solid #eb0000;
 padding: 18px;
 padding-inline-end: 20px;
 text-align: center;
 position: relative;
 bottom: 0;
-background-color: #000005;
+background-color: #00000a;
 margin-top: 50px;  
 }
 
