@@ -1236,4 +1236,6 @@ nav h2 {
     height: auto;
     margin-right: 10px;
   }
+  
+.nav2 nav .button-container{ margin-right: 8px; }
 }
