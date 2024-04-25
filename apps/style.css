@@ -348,12 +348,20 @@ nav img {
   margin-left: 16px;
   vertical-align: middle;
 }
-
-.nav2 {
+.nav2 nav {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
+}
+
+.nav2 nav h1,
+.nav2 nav h2 {
+  margin: 0;
+}
+
+.nav2 nav .button-container {
+  margin-left: auto; /* Isso empurra o container do botão para a direita */
+}
+.nav2 {
   padding-top: 16px;
   padding-left: 8px;
   margin-bottom: 20px;
