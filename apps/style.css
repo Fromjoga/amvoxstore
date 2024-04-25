@@ -334,14 +334,15 @@ font-weight: bold;
 
 .tt {
   margin: 0;
-  display: flex; /* Use flexbox para alinhar os elementos lado a lado */
-  justify-content: center; /* Centraliza os elementos horizontalmente */
-  align-items: center; /* Centraliza os elementos verticalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .header-content .tt h1 {
   font-size: 15px;
-  margin-right: 2.5px; /* Espaço entre o título e o parágrafo */
+  margin-right: 2.5px;
 }
 
 .header-content .tt p {
