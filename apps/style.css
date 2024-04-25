@@ -322,7 +322,6 @@ font-weight: bold;
   color: #fff;
   text-align: center;
   position: relative;
-  align-items: center;
 }
 
 .header-content img {
@@ -333,10 +332,16 @@ font-weight: bold;
   height: 50px;
 }
 
-.tt { margin: 0; display: inline-block; }
+.tt {
+  margin: 0;
+  display: flex; /* Use flexbox para alinhar os elementos lado a lado */
+  justify-content: center; /* Centraliza os elementos horizontalmente */
+  align-items: center; /* Centraliza os elementos verticalmente */
+}
 
 .header-content .tt h1 {
   font-size: 15px;
+  margin-right: 2.5px; /* Espaço entre o título e o parágrafo */
 }
 
 .header-content .tt p {
@@ -344,12 +349,12 @@ font-weight: bold;
 }
 
 header {
-border-top: 5px solid #eb0000;
-padding: 18px;
-padding-inline-end: 20px;
-bottom: 0;
-background-color: #08090a;
-margin-top: 50px;  
+  border-top: 5px solid #eb0000;
+  padding: 18px;
+  padding-inline-end: 20px;
+  bottom: 0;
+  background-color: #08090a;
+  margin-top: 50px;
 }
 
 .button2 {
