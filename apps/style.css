@@ -574,11 +574,13 @@ nav h2 {
   
   nav h1 {
     margin-left: 24px;
+    margin-top: 15px;
     font-size: 32px;
   }
   
   nav h2 {
     font-size: 32px;
+    margin-top: 15px;
   }
 
   nav img {
@@ -851,10 +853,12 @@ nav h2 {
   nav h1 {
     margin-left: 26px;
     font-size: 33px;
+    margin-top: 18px;
   }
   
   nav h2 {
     font-size: 33px;
+    margin-top: 18px;
   }
 
   nav img {
@@ -1072,10 +1076,12 @@ nav h2 {
   
   nav h2 {
     font-size: 19px;
+    margin-top: 20px;
   }
 
   nav h1 {
     font-size: 19px;
+    margin-top: 20px;
   }
 
   .button-nav p {
