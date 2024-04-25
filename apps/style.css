@@ -343,6 +343,14 @@ font-weight: bold;
   margin-right: 4px;
 }
 
+.header-content2 {
+  margin-top: 15px;
+  background-color: #020203;
+  padding: 0 10px;
+  width: 100px;
+  height: 150px
+}
+
 .header-content .tt p {
   font-size: 15px;
 }
