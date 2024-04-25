@@ -318,6 +318,19 @@ font-weight: bold;
   align-items: center;
 }
 
+.header-content {
+  color: #fff;
+}
+
+.header-content img {
+  display: block;
+  margin: 0 auto;
+}
+
+.header-content h1 {
+  margin-top: 10px;
+}
+
 header {
 border-top: 5px solid #eb0000;
 padding: 18px;
