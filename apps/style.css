@@ -333,11 +333,8 @@ font-weight: bold;
 }
 
 .tt {
-  margin: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
-  white-space: normal;
   padding: 0 10px;
 }
 
@@ -471,6 +468,11 @@ nav h2 {
 */
 
 @media screen and (min-width: 1024px) {
+  
+.tt {
+  margin: 0;
+  display: flex;
+}
   .table {
   padding: 20px;
   height: 350px;
@@ -747,7 +749,11 @@ nav h2 {
 
 */
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (min-width: 600px) and (max-width: 1024px) { 
+.tt {
+  margin: 0;
+  display: flex;
+}
   .table {
   padding: 20px;
   height: 300px;
