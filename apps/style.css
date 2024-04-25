@@ -356,6 +356,7 @@ nav img {
 }
 
 nav h1 {
+  margin-left: 15px;
   color: #fff;
   display: inline;
   vertical-align: middle;
@@ -572,6 +573,7 @@ nav h2 {
   }
   
   nav h1 {
+    margin-left: 24px;
     font-size: 32px;
   }
   
@@ -847,6 +849,7 @@ nav h2 {
   }
   
   nav h1 {
+    margin-left: 26px;
     font-size: 33px;
   }
   
@@ -882,7 +885,7 @@ nav h2 {
     align-content: center;
     background-color: #fff;
     border-radius: 10px;
-    border: solid #000 2.52.5px;
+    border: solid #000 1.5px;
     font-size: 18px;
     transition: filter 0.6s ease, background 0.52s ease;
   }
