@@ -355,7 +355,8 @@ nav img {
 
 .nav2 nav h1,
 .nav2 nav h2 {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .nav2 nav .button-container {
