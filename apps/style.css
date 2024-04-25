@@ -24,7 +24,12 @@ body {
   user-select: none;
   background-color: #000014;
 }
-
+.faixa {
+  position: relative;
+  width: 100%;
+  height: 0;
+  border-bottom: 1.4px solid #000026;
+  }
 .abc {
   display: flex;
   overflow-x: auto;
