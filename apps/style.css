@@ -320,11 +320,16 @@ font-weight: bold;
 
 .header-content {
   color: #fff;
+  text-align: center;
+  position: relative;
+  align-items: center;
 }
 
 .header-content img {
   display: block;
   margin: 0 auto;
+  width: 25px;
+  height: 25px;
 }
 
 .header-content h1 {
@@ -335,17 +340,9 @@ header {
 border-top: 5px solid #eb0000;
 padding: 18px;
 padding-inline-end: 20px;
-text-align: center;
-position: relative;
 bottom: 0;
 background-color: #08090a;
 margin-top: 50px;  
-}
-
-header h2 {
-color: #393f4d;
-font-size: 16.8px;
-font-weight: 400;
 }
 
 .button2 {
