@@ -356,7 +356,7 @@ font-weight: bold;
 
 .header-content .tt p {
   font-size: 15px;
-  white-space: normal;
+  white-space: nowrap;
 }
 
 header {
