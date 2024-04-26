@@ -1,0 +1,20 @@
+{
+  "name": "SDW Bots",
+  "short_name": "SDW",
+  "icons": [
+    {
+      "src": "sdw.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "sdw.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#eb0000",
+  "background_color": "#ffffff"
+}
