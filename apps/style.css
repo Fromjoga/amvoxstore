@@ -459,7 +459,7 @@ nav h2 {
 
 .buy button {
   border: none;
-  margin: 100%;
+  margin: 0 auto;
   align-items: center;
   text-align: center;
 }
