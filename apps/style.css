@@ -33,7 +33,7 @@ body {
   }
 
 .abc {
-  display: center;
+  display: flex;
   overflow-x: auto;
   margin-right: 22px;
   margin-left: 22px;
