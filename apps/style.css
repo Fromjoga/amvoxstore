@@ -31,8 +31,9 @@ body {
   height: 0;
   border-bottom: 1px solid #1a191c;
   }
+
 .abc {
-  display: flex;
+  display: center;
   overflow-x: auto;
   margin-right: 22px;
   margin-left: 22px;
