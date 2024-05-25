@@ -1,7 +1,7 @@
 -- Local settings
 local Heal = "Bloodfruit"
-local buttonTextOn = "AutoHeal: On"
-local buttonTextOff = "AutoHeal: Off"
+local buttonTextOn = "AutoHeal"
+local buttonTextOff = "AutoHeal"
 
 -- Create the GUI button
 local player = game.Players.LocalPlayer
@@ -11,13 +11,13 @@ local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = playerGui
 
 local button = Instance.new("TextButton")
-button.Size = UDim2.new(0, 100, 0, 40)
+button.Size = UDim2.new(0, 60, 0, 40)
 button.Position = UDim2.new(0, 10, 0, 10)
 button.Text = buttonTextOff
 button.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
 button.TextColor3 = Color3.new(1, 1, 1)
 button.Font = Enum.Font.SourceSans
-button.TextSize = 14
+button.TextSize = 10
 button.BorderSizePixel = 0
 button.Parent = screenGui
 
