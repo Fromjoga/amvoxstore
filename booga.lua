@@ -460,13 +460,7 @@ local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlex
 local Window = Library:CreateWindow({ 
     Name = "Shamen Hub", 
     LoadingTitle = "Shamen Hub", 
-    LoadingSubtitle = "By Shadow & Lumen", -- Authors or Rblx name or discord tag or neither 
---[[    KeySystem = false,  -- Set this to true to use key system  
-        KeySettings = { 
-        Title = "Shamen Hub", 
-        Subtitle = "Key System", 
-        Note = "Join the discord (discord.gg/boogabooga)", 
-        Key = "ABCDEF"} ]]-- 
+    LoadingSubtitle = "By Shadow & Lumen",
 }) 
 
 local mainTab = Window:CreateTab("Main") 
