@@ -8,6 +8,7 @@ function link(l) {window.open(l, "_blank")}
                 rect.left >= 0 &&
                 rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
                 rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+
             );
         }
 
@@ -20,4 +21,6 @@ function link(l) {window.open(l, "_blank")}
                 }
             });
         }
-        window.addEventListener('scroll', showVisibleElements);
+       
+        window.addEventListener('scroll', showVisibleElements);       
+        window.addEventListener('load', showVisibleElements);
