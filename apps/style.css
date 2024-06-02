@@ -1,5 +1,5 @@
 
-        div {
+        div, img, p, h1, h2, h3, h4, h5 {
             opacity: 0;
             transform: translateY(50px);
             transition: opacity 0.5s ease-in, transform 0.5s ease;
