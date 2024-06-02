@@ -74,8 +74,7 @@ body {
   border-bottom: 1.4px solid rgba(0, 0, 0, 0.3);
 }
 
-.table:hover {
-  transform: scale(1.010);
+.table:hover {
   background-color: #1770ff;
 }
 
