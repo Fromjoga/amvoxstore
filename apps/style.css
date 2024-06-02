@@ -1,8 +1,8 @@
 
-        div, img, p {
+        div {
             opacity: 0;
             transform: translateY(50px);
-            transition: opacity 0.5s ease-in, transform 0.5s ease;
+            transition: opacity 0.3s ease, transform 0.3s ease;
         }
 
 ::-webkit-scrollbar {
