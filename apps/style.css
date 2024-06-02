@@ -5,13 +5,13 @@
 }
 
 ::-webkit-scrollbar-track {
-  border-radius: 3px;
+  border-radius: 7px;
   background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: red;
-  border-radius: 3px;
+  border-radius: 7px;
 }
 
 body {
