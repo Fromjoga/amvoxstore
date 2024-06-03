@@ -3,11 +3,10 @@ function link(l) {window.open(l, "_blank")}
 document.addEventListener("DOMContentLoaded", function() {
             const paginaPrincipal = 'index.html';
             const urlProibidas = ['script.js', 'style.css'];
-            const caminhoAtual = window.location.pathname.split('/').pop();
 
             const caminhoAtual = window.location.pathname.split('/').pop();
 
-            if ((caminhoAtual !== '' && caminhoAtual !== paginaPrincipal && caminhoAtual !== '404.html') || urlProibidas.includes(caminhoAtual)) {
+            if ((urlProibidas.includes(caminhoAtual)) || (caminhoAtual !== '' && caminhoAtual !== paginaPrincipal && caminhoAtual !== '404.html')) {
                 window.location.href = '404.html';
             }
         });
