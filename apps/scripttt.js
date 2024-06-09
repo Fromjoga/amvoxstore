@@ -17,11 +17,7 @@ document.onkeydown = function(e) {
       return false;
     }
   };
-if (window.devtools.isOpen === true) {
-      window.location = "https://endereco-do-seu-site.com.br/conteudo-protegido.php";
-    }
   	window.addEventListener('devtoolschange', event => {
-      if (event.detail.isOpen === true) {
-        window.location = "https://endereco-do-seu-site.com.br/conteudo-protegido.php";
-      }
+      if (event.detail.isOpen === true) return false;
   	});
+if (window.devtools.isOpen === true) return false;
